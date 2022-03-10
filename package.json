@@ -1,0 +1,45 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "DevJobs con NodeJS & Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index",
+    "desarrollo": "concurrently \"npm run dev\" \"npm run watch\" ",
+    "start": "node ./index.js",
+    "watch": "webpack --w --mode development"
+  },
+  "author": "Phool Herrera Condezo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.4.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^5.3.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.16",
+    "slug": "^5.1.0",
+    "sweetalert2": "^11.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.2.3"
+  }
+}

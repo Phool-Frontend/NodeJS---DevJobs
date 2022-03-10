@@ -1,0 +1,12 @@
+////////// DEPENDENCIAS INSTALADAS //////
+npm init ---> para instalar el package.json 
+npm install --save express-handlebar  -----------> template engine (como pug, hay mas)
+npm install --save express express-handlebars -------> instala el primer packete con ello el node_modules
+
+
+--->usa mongodbCluster ---> es como un servidor de mongoose gratis en la nube
+---> el proyecto final para comparar codigo esta en:
+    https://github.com/juanpablogdl/DevJobs
+
+    Tambien el codigo completo del proyecto anterior esta ahi en los primeros videos.
+    
